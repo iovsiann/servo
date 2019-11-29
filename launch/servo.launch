@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="servo" type="servo.py" name="servo_node_name" output="screen">
+    <param name="pin_num" value="18" />
+    <param name="frequency" value="100" />
+    <param name="max_pulse_width_us" value="2400" />
+    <param name="min_pulse_width_us" value="600" />
+  </node>
+</launch>
